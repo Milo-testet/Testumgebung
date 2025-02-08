@@ -2,7 +2,7 @@
 FROM node:18
 
 # Arbeitsverzeichnis setzen
-WORKDIR /App
+WORKDIR /app
 
 # Abhängigkeiten kopieren und installieren
 COPY package.json ./
